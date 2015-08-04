@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.SelfHost", "JBB.SelfHos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.Common", "JBB.Common\JBB.Common.csproj", "{6CA83C11-B5FB-4D33-9F18-BDD0167C4FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.Model", "JBB.Model\JBB.Model.csproj", "{C4D80CA0-277F-4145-B850-E3211B6CE90D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.DAL.EF", "JBB.DAL.EF\JBB.DAL.EF.csproj", "{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6CA83C11-B5FB-4D33-9F18-BDD0167C4FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA83C11-B5FB-4D33-9F18-BDD0167C4FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA83C11-B5FB-4D33-9F18-BDD0167C4FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D80CA0-277F-4145-B850-E3211B6CE90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D80CA0-277F-4145-B850-E3211B6CE90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D80CA0-277F-4145-B850-E3211B6CE90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D80CA0-277F-4145-B850-E3211B6CE90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
