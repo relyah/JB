@@ -13,15 +13,18 @@ namespace JBB.DAL.EF
  {
   public JBContext()
    : base("JBContext")
-        {
-        }
-        
-        public DbSet<Company> Companies { get; set; }
-        public DbSet<Offer> Offers { get; set; }
+  {
+   base.Configuration.ProxyCreationEnabled= false;
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-        }
+
+  }
+
+  public DbSet<Company> Companies { get; set; }
+  public DbSet<Offer> Offers { get; set; }
+
+  protected override void OnModelCreating(DbModelBuilder modelBuilder)
+  {
+   modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+  }
  }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.Model", "JBB.Model\JBB.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.DAL.EF", "JBB.DAL.EF\JBB.DAL.EF.csproj", "{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBB.WebApi", "JBB.WebApi\JBB.WebApi.csproj", "{E82AE601-0768-4FDA-92A1-2258F5C14FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC8F92C-0FC8-419E-BC64-11327FF5E6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82AE601-0768-4FDA-92A1-2258F5C14FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82AE601-0768-4FDA-92A1-2258F5C14FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82AE601-0768-4FDA-92A1-2258F5C14FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82AE601-0768-4FDA-92A1-2258F5C14FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
