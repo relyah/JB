@@ -53,10 +53,6 @@
     </Compile>
     <Compile Include="JBContext.cs" />
     <Compile Include="JBInitializer.cs" />
-    <Compile Include="Migrations\201508040914110_InitialCreate.cs" />
-    <Compile Include="Migrations\201508040914110_InitialCreate.Designer.cs">
-      <DependentUpon>201508040914110_InitialCreate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,11 +65,6 @@
       <Project>{c4d80ca0-277f-4145-b850-e3211b6ce90d}</Project>
       <Name>JBB.Model</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201508040914110_InitialCreate.resx">
-      <DependentUpon>201508040914110_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

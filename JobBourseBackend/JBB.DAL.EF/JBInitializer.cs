@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JBB.DAL.EF
 {
- public class JBInitializer  : System.Data.Entity. DropCreateDatabaseIfModelChanges<JBContext>
+ public class JBInitializer  : System.Data.Entity.DropCreateDatabaseIfModelChanges<JBContext>
  {
   protected override void Seed(JBContext context)
   {
